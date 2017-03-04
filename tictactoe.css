@@ -1,0 +1,43 @@
+h1{
+	text-align:center;
+}
+
+table{
+	margin: auto;
+}
+/*I did the middle 1st to set a base*/
+#upper-middle{
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	width: 100px;
+	height: 100px;
+
+		}
+#middle{
+	border-top: 2px solid black;
+	border-bottom:2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	width:100px;
+	height:100px;
+}
+#lower-middle{
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	width: 100px;
+	height: 100px;
+}
+/*Now I'm adding the "arms"  to the outside to finish the game board */
+
+#left{
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	width:100px;
+	height: 100px;
+	}
+#right{
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	width:100px;
+	height: 100px;
+}
